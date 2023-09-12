@@ -39,7 +39,7 @@ public class Program {
         ArrayUtils.printArray(array);
         int searchElement = 11;
 
-        
+
         int searchRes = SearchUtils.binarySearch(array, searchElement);
         System.out.printf("Значение %d %s\n", searchElement,
                 searchRes >= 0 ? String.format("найдено в массиве по индексу %d", searchRes) :
